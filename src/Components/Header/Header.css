@@ -424,9 +424,6 @@
         line-height: 2;
         list-style: none;
     }
-
-    .contactus li a {}
-
     .contact-link {
         display: flex;
         flex-wrap: wrap;
