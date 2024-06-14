@@ -14,6 +14,7 @@
     "@types/jquery": "^3.5.30",
     "aos": "^2.3.4",
     "axios": "^1.7.2",
+    "jquery": "^3.7.1",
     "jquery.ripples": "^0.6.3",
     "js-cookie": "^3.0.5",
     "react": "^18.2.0",
@@ -39,10 +40,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "npm install --legacy-peer-deps",
-    "build": "vercel build"
+    "postinstall": "npm install --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
