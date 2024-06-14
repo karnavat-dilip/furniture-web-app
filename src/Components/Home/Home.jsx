@@ -5,8 +5,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import sofaimg from '../../Assets/badroom.jpg'
-import Banner1 from '../../Assets/banner4.jpg'
-import Banner2 from '../../Assets/banner5.jpg'
+import Banner4 from '../../Assets/banner4.jpg'
+import Banner5 from '../../Assets/banner5.jpg'
 import sofa from '../../Assets/Icons/sofa-furniture.png'
 import Banner03 from '../../Assets/Banner05.jpg'
 import bedroom from '../../Assets/badroom.jpg'
@@ -129,8 +129,8 @@ function Home() {
               modules={[Autoplay, Pagination, Navigation]}
               className="mySwiper"
             >
-              <SwiperSlide><img src={Banner1} id='img1' /></SwiperSlide>
-              <SwiperSlide><img src={Banner2} id='img2' /></SwiperSlide>
+              <SwiperSlide><img src={Banner4} id='img1' /></SwiperSlide>
+              <SwiperSlide><img src={Banner5} id='img2' /></SwiperSlide>
             </Swiper>
           </div>
         </section>
