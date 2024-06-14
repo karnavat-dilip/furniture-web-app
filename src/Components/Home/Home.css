@@ -30,7 +30,7 @@
 }
 
 .h1-container h1 {
-  border-bottom: 2px solid #01a875;
+  border-bottom: 2px solid red;
   width: fit-content;
   padding: 0 0 7px 0;
   font-weight: 400;
@@ -61,15 +61,15 @@
 }
 
 .swiper-child h3 {
-  color: black;
+  color: darkblue;
   font-size: large;
   font-weight: 400;
 }
 
 .swiper-child a:hover {
-  border: 2px solid #47deb1;
+  border: 2px solid red;
   text-decoration: underline;
-  color: #47deb1;
+  color: red;
 }
 
 .product-container {
@@ -83,7 +83,7 @@
 
 .count-container>div {
   padding: 25px 27px;
-  box-shadow: 0 0 5px 2px #01a875;
+  box-shadow: 0 0 5px 2px red;
   border-radius: 4px 24px;
   transition: .3s;
   position: relative;
@@ -143,7 +143,7 @@
 }
 
 .nav-container ul li:hover {
-  color: #01a875;
+  color: red;
 }
 
 .text-indent {
@@ -152,7 +152,7 @@
 }
 
 .b-btm {
-  border-bottom: 2px solid #01a875;
+  border-bottom: 2px solid red;
   width: fit-content;
   padding: 0 0 7px 0;
 }
@@ -199,8 +199,8 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #01a875;
+  color: red;
 }
 .swiper-pagination-bullet {
-  background-color: #01a875;
+  background-color: red;
 }

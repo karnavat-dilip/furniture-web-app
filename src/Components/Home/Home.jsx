@@ -4,9 +4,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import sofaimg from '../../Assets/sofa.png'
-import Banner1 from '../../Assets/banner1.png'
-import Banner2 from '../../Assets/banner-02.jpg'
+import sofaimg from '../../Assets/badroom.jpg'
+import Banner1 from '../../Assets/banner4.jpg'
+import Banner2 from '../../Assets/banner5.jpg'
 import sofa from '../../Assets/Icons/sofa-furniture.png'
 import Banner03 from '../../Assets/Banner05.jpg'
 import bedroom from '../../Assets/badroom.jpg'
@@ -45,7 +45,7 @@ function AboutUs() {
     <div>
       <p>We are one of the largest and oldest furniture suppliers in Palanpur since 1991. We are one of the best wooden and steel furniture suppliers in Palanpur. We deal in living room furniture, bedroom furniture, garden furniture, dining room furniture, office furniture, and imported furniture. We are also a manufacturer of quality Indian teak wood Furniture.
 
-        <a href='/about' style={{ color: '#01a875' }}>Read more...</a></p>
+        <a href='/about' style={{ color: 'red' }}>Read more...</a></p>
     </div>
   );
 }
@@ -55,7 +55,7 @@ function OurStrength() {
     <div>
       <p>Having earned a recommendable position in the industry for providing innovative, high-quality Kerala furniture at a reasonable cost, our organization is fostered with a skilled team of professionals who make their sincere effort towards the growth of the company.
 
-        <a href='/about' style={{ color: '#01a875' }}>Read more...</a></p>
+        <a href='/about' style={{ color: 'red' }}>Read more...</a></p>
     </div>
   );
 }
@@ -65,7 +65,7 @@ function OurService() {
     <div>
       <p>We have been trusted to layout the furniture including space planning for our customers because of our experienced, knowledge and passionate team in furniture.
 
-        <a href='/about' style={{ color: '#01a875' }}>Read more...</a></p>
+        <a href='/about' style={{ color: 'red' }}>Read more...</a></p>
     </div>
   );
 }

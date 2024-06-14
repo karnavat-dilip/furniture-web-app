@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: baseline;
     box-shadow: 0 0 6px;
-    background: #01a875;
+    background: red;
   }
   .b-child h1{
     align-self: center;

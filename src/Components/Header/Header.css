@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    background-color: black;
+    background-color: darkblue;
     transition: top 0.3s;
     padding-right: 34px;
 }
@@ -53,7 +53,7 @@
 }
 
 .dropdown-content a {
-    color: black;
+    color: darkblue;
     padding: 10px;
     display: block;
     text-decoration: none;
@@ -66,7 +66,7 @@
     margin-top: -10px;
     position: absolute;
     left: 0px;
-    background: #01a875;
+    background: red;
 }
 
 .dropdown-content a:is(:link, :active, :visited).active-sub-menu:before {
@@ -76,11 +76,11 @@
     margin-top: -10px;
     position: absolute;
     left: 0px;
-    background: #01a875;
+    background: red;
 }
 
 .dropdown-content a:is(:link, :active, :visited).active-sub-menu {
-    color: #01a875;
+    color: red;
 }
 
 .dropdown:hover .dropdown-content {
@@ -118,7 +118,7 @@
 }
 
 .nav-links>ul li a:hover {
-    color: #01a875;
+    color: red;
 }
 
 .nav-links ul li:hover>a::after {
@@ -127,7 +127,7 @@
 }
 
 .nav-links>ul li a:is(:link, :active, :visited).active {
-    color: #01a875;
+    color: red;
     background-color: white;
 }
 
@@ -142,7 +142,7 @@
     position: absolute;
     width: 0%;
     height: 3px;
-    background: #01a875;
+    background: red;
     -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
     transition: all .3s cubic-bezier(.645, .045, .355, 1);
 }
@@ -160,7 +160,7 @@
 .p-list-container div {
     display: flex;
     padding: 13px;
-    border: 1px solid #01a875;
+    border: 1px solid red;
     border-radius: 23px 3px;
     box-shadow: 0 0 4px;
     height: -webkit-fill-available;
@@ -179,7 +179,7 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: black;
+    color: darkblue;
 }
 
 .p-list-container h3 {
@@ -374,7 +374,7 @@
     }
 
     .customer-service ul li a:hover {
-        color: #01a875;
+        color: red;
     }
 
     .section-child h3 {
@@ -415,7 +415,7 @@
 
     .sitemap>li a:hover {
         cursor: pointer;
-        color: #01a875;
+        color: red;
         position: relative;
         left: 12px;
     }
@@ -445,7 +445,7 @@
     .social-icon-child ul li {
         list-style: none;
         margin: 0px 3px;
-        color: black;
+        color: darkblue;
         cursor: pointer;
         font-size: x-large;
         transition: .3s;
@@ -511,7 +511,7 @@
         z-index: 9999;
         height: 100px;
         align-items: center;
-        background: linear-gradient(115deg, ghostwhite, #01a875);
+        background: linear-gradient(115deg, ghostwhite, red);
     }
 
     .offcanvas-menu>ul li a:is(:link, :active, :visited).active {
@@ -612,13 +612,13 @@
 }
 
 .header-user-menu li a {
-    color: black;
+    color: darkblue;
     text-decoration: none;
     padding: 10px;
 }
 
 .header-user-menu li a:hover {
-    color: #01a875;
+    color: red;
 }
 
 .header-tops {
@@ -632,11 +632,11 @@
 }
 
 .download li {
-    background-color: #01a875;
+    background-color: red;
 }
 
 .download li a:hover {
-    color: black !important
+    color: darkblue !important
 }
 
 /* Position and sizing of burger button */
@@ -755,7 +755,7 @@
 }
 
 .mobile-menu-bottom ul li a {
-    color: black;
+    color: darkblue;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
@@ -763,7 +763,7 @@
 }
 
 .fa-icon {
-    color: black;
+    color: darkblue;
     width: 44px;
     height: 18px;
 
@@ -782,7 +782,7 @@
 }
 
 .scroll-to-top button {
-    background-color: #01a875;
+    background-color: red;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -790,18 +790,18 @@
     height: 40px;
     font-size: 24px;
     cursor: pointer;
-    box-shadow: 0px 0px 7px black;
+    box-shadow: 0px 0px 7px darkblue;
     transition: background-color 0.3s;
 }
 
 .scroll-to-top button:hover {
-    background-color: black;
+    background-color: darkblue;
 }
 
 .sticky {
     position: fixed;
     top: 0;
-    background-color: black;
+    background-color: darkblue;
     width: 100%;
     animation-name: fadeIndown;
     animation-duration: .9s;
@@ -842,10 +842,10 @@
 
 .sentmail button {
     padding: 9px 36px;
-    background-color: #01a875;
+    background-color: red;
     font-size: large;
     color: white;
-    border: 1px solid #01a875;
+    border: 1px solid red;
     border-radius: 14px;
     cursor: pointer;
     position: relative;

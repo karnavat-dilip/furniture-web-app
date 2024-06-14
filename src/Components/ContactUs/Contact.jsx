@@ -64,7 +64,7 @@ function Contact() {
             <section className='m-top53px'>
                 <div className='container'>
                     <div className='location' data-aos="fade-up">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d909.9922257445418!2d72.4280182663224!3d24.172823345938337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ce9fc73cd11cb%3A0xa1325d575c600014!2sShubhlaxmi%20Furniture!5e0!3m2!1sen!2sin!4v1717822210435!5m2!1sen!2sin" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14560.353789141445!2d72.41950724556486!3d24.16863068111771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ce98d6671086f%3A0x393517bb04510dd1!2sShubh%20Laxmi%20pvc%20farnichar!5e0!3m2!1sen!2sin!4v1718351590652!5m2!1sen!2sin" width="600" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div className='contact-container'>
                         <div data-aos="fade-up">
@@ -97,7 +97,7 @@ function Contact() {
                                         <a>shubhlaxmi_homeinterior@gmail.com</a>
                                     </li>
                                     <li>
-                                        <a>www.ShubhlaxmiFurniture.in</a>
+                                        <a>www.shubhlaxmipvcfurniture.vercel.app</a>
                                     </li>
                                 </ul>
                             </div>

@@ -107,7 +107,7 @@ function Footer() {
                             <a href='/contact'>Contact Us</a>
                             <ul className='contactus'>
                                 <li>
-                                    <b>Shubhlaxmi Furniture</b>
+                                    <b>Shubhlaxmi PVC Furniture</b>&nbsp;
                                 </li>
                                 <li>
                                 Fansia Hill, Three Roads, Kantheria Hanuman Main Road, Palanpur - 385001 (B.K.)
@@ -132,7 +132,7 @@ function Footer() {
 
                                 <li className='contact-link'>
                                     <TbWorldWww className='contact-support' />
-                                    <a href='https://www.ShubhlaxmiFurniture.in'>www.ShubhlaxmiFurniture.in</a>
+                                    <a href='https://www.shubhlaxmipvcfurniture.vercel.app'>www.shubhlaxmipvcfurniture.vercel.app</a>
                                 </li>
                             </ul>
 
