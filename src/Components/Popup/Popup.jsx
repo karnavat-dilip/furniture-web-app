@@ -47,7 +47,7 @@ const Popup = ({ closePopup, texts, speed, pause }) => {
     <div className="popup" id="welcome-popup">
       <div className="popup-inner">
         <img src={panels} className='panels' />
-        <h1>Welcome To Gujarat Panel!</h1>
+        <h1>Welcome To Shubhlaxmi PVC Furniture!</h1>
         <p>We Being {displayedText}
           {(isTyping || isDeleting) && <span className="typing-cursor">|</span>}</p>
         <div className='arrow-container animated fadeInDown' onClick={closePopup}>
