@@ -1,6 +1,6 @@
 // src/components/Popup.js
 import React, { useEffect, useState } from 'react';
-import panels from '../../Assets/IMG-20230606-WA0015.jpg'
+import panels from '../../Assets/Banner4.jpg'
 import { FaChevronDown } from "react-icons/fa";
 import './Popup.css'
 
