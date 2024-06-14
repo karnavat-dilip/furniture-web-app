@@ -43,7 +43,7 @@
     "build": "vercel build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "npm install --legacy-peer-deps"
+    "postinstall": "npm install --force"
   },
   "eslintConfig": {
     "extends": [
