@@ -82,10 +82,41 @@ import img17 from '../../Assets/img17.jpg'
 import img18 from '../../Assets/img18.jpg'
 import img19 from '../../Assets/img19.jpg'
 import img20 from '../../Assets/img1.jpg'
-
+import i1 from '../../Assets/1.jpg'
+import i2 from '../../Assets/2.jpg'
+import i3 from '../../Assets/3.jpg'
+import i4 from '../../Assets/4.jpg'
+import i5 from '../../Assets/5.jpg'
+import i6 from '../../Assets/6.jpg'
+import i7 from '../../Assets/7.jpg'
+import i8 from '../../Assets/8.jpg'
+import i9 from '../../Assets/9.jpg'
+import i10 from '../../Assets/10.jpg'
+import i11 from '../../Assets/11.jpg'
+import i12 from '../../Assets/12.jpg'
+import i13 from '../../Assets/13.jpg'
+import i14 from '../../Assets/14.jpg'
+import i15 from '../../Assets/15.jpg'
+import i16 from '../../Assets/16.jpg'
+import i17 from '../../Assets/17.jpg'
+import i18 from '../../Assets/18.jpg'
+import i19 from '../../Assets/19.jpg'
+import i20 from '../../Assets/20.jpg'
+import i21 from '../../Assets/21.jpg'
+import i22 from '../../Assets/22.jpg'
+import i23 from '../../Assets/23.jpg'
+import i24 from '../../Assets/24.jpg'
+import i25 from '../../Assets/25.jpg'
+import i26 from '../../Assets/26.jpg'
+import i27 from '../../Assets/27.jpg'
+import i28 from '../../Assets/28.jpg'
+import i29 from '../../Assets/29.jpg'
+import i30 from '../../Assets/30.jpg'
+import i31 from '../../Assets/31.jpg'
+import i32 from '../../Assets/32.jpg'
 
 const images = [
-  img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20, tv1, tv2, tv3, tv4, tv5, tv6, tv7, tv8, tv9, tv10, tv11, tv12, tv13, tv14, tv15, tv16, tv17,
+  i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,i16,i17,i18,i19,i20,i21,i22,i23,i24,i25,i26,i27,i28,i29,i30,i31,i32,img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20, tv1, tv2, tv3, tv4, tv5, tv6, tv7, tv8, tv9, tv10, tv11, tv12, tv13, tv14, tv15, tv16, tv17,
   Kitchen1, Kitchen2, Kitchen3, Kitchen4, Kitchen5, Kitchen6, Kitchen7, Kitchen8, Kitchen9, Kitchen10, Kitchen11, Kitchen12, Kitchen13, Kitchen14, Kitchen15, Kitchen16, Kitchen17, Kitchen18,
   bed1, bed2, bed3, bed4, bed5, bed6, bed7, bed8, bed9, bed10, bed11, bed12, bed13, bed14, bed15, bed16, bed17, bed18, bed19, bed20, bed21
 ];
