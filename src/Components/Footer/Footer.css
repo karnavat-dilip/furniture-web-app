@@ -3,7 +3,7 @@
     width: 100%;
     height: fit-content;
     box-shadow: 0 0 5px #333;
-    background: linear-gradient(-19deg, red, transparent);
+    background: linear-gradient(-19deg, #bf1e2e, transparent);
 }
 .Footer-child{
     display: flex;
@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 .customer-service ul li a:hover{
-    color: red;
+    color: #bf1e2e;
 }
 .section-child h3{
     
@@ -61,7 +61,7 @@
 }
 .sitemap > li a:hover{
     cursor: pointer;
-    color: red;
+    color: #bf1e2e;
     position: relative;
     left: 12px;
 }
@@ -88,7 +88,7 @@
 .social-icon-child ul li{
     list-style: none;
     margin: 0px 3px;
-    color: darkblue;
+    color: #035084;
     cursor: pointer;
     font-size: x-large;
     transition: .3s;
@@ -108,7 +108,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: .6s;
     line-height: 44px;
-    color: red;
+    color: #bf1e2e;
 
 }
 .social-icon-child ul li:nth-child(1) a:hover{
@@ -120,7 +120,7 @@
     border-radius: 4px;
 }
 .social-icon-child ul li:nth-child(3) a:hover{
-    color: red;
+    color: #bf1e2e;
 }
 .social-icon-child ul li:nth-child(4) a:hover{
     color: #357ae8;

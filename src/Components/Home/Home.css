@@ -1,6 +1,6 @@
 .slide {
   position: relative;
-  z-index: -1;
+  
 }
 
 #img1 {
@@ -10,9 +10,7 @@
 }
 
 #profile-img {
-  width: 30vw;
-  aspect-ratio: 2.7 / 1;
-  margin: 24px;
+  width: 21vw;
 }
 
 #img2 {
@@ -30,7 +28,7 @@
 }
 
 .h1-container h1 {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #bf1e2e;
   width: fit-content;
   padding: 0 0 7px 0;
   font-weight: 400;
@@ -61,15 +59,15 @@
 }
 
 .swiper-child h3 {
-  color: darkblue;
+  color: #035084;
   font-size: large;
   font-weight: 400;
 }
 
 .swiper-child a:hover {
-  border: 2px solid red;
+  border: 2px solid #bf1e2e;
   text-decoration: underline;
-  color: red;
+  color: #bf1e2e;
 }
 
 .product-container {
@@ -83,7 +81,7 @@
 
 .count-container>div {
   padding: 25px 27px;
-  box-shadow: 0 0 5px 2px red;
+  box-shadow: 0 0 5px 2px #bf1e2e;
   border-radius: 4px 24px;
   transition: .3s;
   position: relative;
@@ -112,16 +110,27 @@
   width: 100%;
   height: 100%;
 }
-
+.swiper-child a{
+  width: auto;
+  padding: 10px;
+  display: inline-block;
+  color: #bf1e2e;
+  background: #035084;
+  text-decoration: none;
+  box-shadow: 0 0 12px #035084;
+  border: none;
+}
+.swiper-child p{
+  font-size: small;
+  padding: 8px;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
 
   /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   
 }
 
@@ -143,7 +152,7 @@
 }
 
 .nav-container ul li:hover {
-  color: red;
+  color: #bf1e2e;
 }
 
 .text-indent {
@@ -152,7 +161,7 @@
 }
 
 .b-btm {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #bf1e2e;
   width: fit-content;
   padding: 0 0 7px 0;
 }
@@ -199,8 +208,32 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: red;
+  color: #bf1e2e;
 }
 .swiper-pagination-bullet {
-  background-color: red;
+  background-color: #bf1e2e;
+}
+.bannertext{
+  position: absolute;
+    top: 50%;
+    left: 21%;
+    color: white;
+    text-transform: uppercase;
+}
+.bannertext a{
+  padding: 10px;
+  border: none;
+  width: 140px;
+  background-color: #035084;
+  color: white;
+  margin: 48px -62px;
+  position: absolute;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 17px;
+  z-index: 9999;
+}
+.bannertext a:hover{
+  background-color: transparent;
+  border: 1px solid;
 }

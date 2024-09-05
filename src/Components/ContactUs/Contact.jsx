@@ -64,7 +64,7 @@ function Contact() {
             <section className='m-top53px'>
                 <div className='container'>
                     <div className='location' data-aos="fade-up">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14560.353789141445!2d72.41950724556486!3d24.16863068111771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ce98d6671086f%3A0x393517bb04510dd1!2sShubh%20Laxmi%20pvc%20farnichar!5e0!3m2!1sen!2sin!4v1718351590652!5m2!1sen!2sin" width="600" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.904358420374!2d72.42884011087762!3d24.175086772249777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ce91fc9340471%3A0xfcde67ce9642b38!2sNice%20Travels!5e0!3m2!1sen!2sin!4v1723095209753!5m2!1sen!2sin" width="600" height="450"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div className='contact-container'>
                         <div data-aos="fade-up">
@@ -74,7 +74,7 @@ function Contact() {
                             <div className='contact-detail'>
                                 <span><IoLocationSharp /></span>
                                 <address>
-                                Fansia Hill, Three Roads, Kantheria Hanuman Main Road,<br/>
+                                Railway Station Rd, Chaman Bagh,<br/>
                                  Palanpur - 385001 (B.K.)
 
                                 </address>
@@ -83,10 +83,10 @@ function Contact() {
                                 <span><IoCall /></span>
                                 <ul>
                                     <li>
-                                        <a>+91 8401429751</a>
+                                        <a>+91 9737391044</a>
                                     </li>
                                     <li>
-                                        <a>+91 9427064866</a>
+                                        <a>+91 9427536115</a>
                                     </li>
                                 </ul>
                             </div>
@@ -94,10 +94,10 @@ function Contact() {
                                 <span><GiWorld /></span>
                                 <ul>
                                     <li>
-                                        <a>shubhlaxmi_homeinterior@gmail.com</a>
+                                        <a>nicepathan123@gmail.com</a>
                                     </li>
                                     <li>
-                                        <a>www.shubhlaxmipvcfurniture.vercel.app</a>
+                                        <a>www.nicetravels.vercel.app</a>
                                     </li>
                                 </ul>
                             </div>
@@ -117,7 +117,7 @@ function Contact() {
                                         </li>
                                         <li>
 
-                                            <a href='https://www.instagram.com/shubhlaxmi_homeinterior?igsh=MXZnd3lrY21qdHhqYQ%3D%3D'>
+                                            <a href='https://www.instagram.com/'>
                                                 <FaInstagramSquare />
                                             </a>
 

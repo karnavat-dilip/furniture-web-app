@@ -20,9 +20,10 @@ function App() {
   const [showPopup, setShowPopup] = useState(true);
   const [ip, setIp] = useState(null);
   const texts = [
-    "Superior...",
-    "Qualitative...",
-    "Creative..."
+    "Hotel Booking...",
+    "Taxi Services...",
+    "Yatra Tours...",
+    "School Tours..."
   ];
   const typingSpeed = 50; // Speed in milliseconds
   const pauseTime = 1500; // Pause time before deleting in milliseconds
@@ -65,7 +66,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Allproduct" element={<AllProduct />} />
+            <Route path="/Services" element={<AllProduct />} />
             <Route path="/qualitypolicy" element={<Qualitypolicy />} />
             <Route path="/Allproduct/:id" element={<ProductById />} />
             <Route path="/contact" element={<Contact />} />

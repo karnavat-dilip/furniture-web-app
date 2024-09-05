@@ -1,0 +1,45 @@
+
+
+
+document.getElementById('contactForm').addEventListener('submit', submitForm);
+
+// submit form
+function submitForm(e){
+    e.preventDefault();
+    console.log(123);
+    
+    var name= getInputVal('name');
+    var mobile_number= getInputVal('number');
+    var date= getInputVal('dep-date');
+    var pick_up= getInputVal('pick-location');
+    var drop_off= getInputVal('drop-location');
+    var vehicle_type= getInputVal('vehicle-type');
+    var nop= getInputVal('nop');
+    
+    //passing into firebase
+    savemsg(name, mobile_number, date, pick_up, drop_off, vehicle_type, nop);
+}
+
+function getInputVal(id){
+    return document.getElementById(id).value;
+}
+
+
+function savemsg (name, mobile_number, date, pick_up, drop_off, vehicle_type, nop)
+{
+    var newMessageRef = messageRef.push();
+    newMessageRef.set({
+        name: name,
+        mobile_number: mobile_number,
+        date: date,
+        pick_up: pick_up,
+        drop_off: drop_off,
+        vehicle_type: vehicle_type,
+        nop: nop
+        
+    });
+     document.getElementById("contactForm").reset();
+}
+
+
+

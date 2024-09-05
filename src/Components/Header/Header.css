@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    background-color: darkblue;
+    background-color: #035084;
     transition: top 0.3s;
     padding-right: 34px;
 }
@@ -53,7 +53,7 @@
 }
 
 .dropdown-content a {
-    color: darkblue;
+    color: #035084;
     padding: 10px;
     display: block;
     text-decoration: none;
@@ -66,7 +66,7 @@
     margin-top: -10px;
     position: absolute;
     left: 0px;
-    background: red;
+    background: #bf1e2e;
 }
 
 .dropdown-content a:is(:link, :active, :visited).active-sub-menu:before {
@@ -76,11 +76,11 @@
     margin-top: -10px;
     position: absolute;
     left: 0px;
-    background: red;
+    background: #bf1e2e;
 }
 
 .dropdown-content a:is(:link, :active, :visited).active-sub-menu {
-    color: red;
+    color: #bf1e2e;
 }
 
 .dropdown:hover .dropdown-content {
@@ -118,7 +118,7 @@
 }
 
 .nav-links>ul li a:hover {
-    color: red;
+    color: #bf1e2e;
 }
 
 .nav-links ul li:hover>a::after {
@@ -127,7 +127,7 @@
 }
 
 .nav-links>ul li a:is(:link, :active, :visited).active {
-    color: red;
+    color: #bf1e2e;
     background-color: white;
 }
 
@@ -142,7 +142,7 @@
     position: absolute;
     width: 0%;
     height: 3px;
-    background: red;
+    background: #bf1e2e;
     -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
     transition: all .3s cubic-bezier(.645, .045, .355, 1);
 }
@@ -160,7 +160,7 @@
 .p-list-container div {
     display: flex;
     padding: 13px;
-    border: 1px solid red;
+    border: 1px solid #bf1e2e;
     border-radius: 23px 3px;
     box-shadow: 0 0 4px;
     height: -webkit-fill-available;
@@ -179,7 +179,7 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: darkblue;
+    color: #035084;
 }
 
 .p-list-container h3 {
@@ -191,6 +191,33 @@
 @media screen and (max-width: 992px) {
     .m-top53px {
         margin-top: 170px !important;
+    }
+    .bannertext a{
+        padding: 10px !important;
+        border: none !important;
+        width: 99px !important;
+        background-color: #035084 !important;
+        color: white !important;
+        margin: 18px -62px !important;
+        position: absolute !important;
+        text-decoration: none !important;
+        cursor: pointer !important;
+        border-radius: 17px !important;
+        z-index: 9999 !important;
+    }
+    .bannertext{
+        position: absolute !important;
+        top: 9% !important;
+        left: 21% !important;
+        font-size: small !important;
+        color: white !important;
+        text-transform: uppercase !important;
+    }
+    .servicestwo > div{
+        display: block !important;
+    }
+    .services{
+        display: block !important;
     }
     .panels{
         width: 66%!important;
@@ -374,7 +401,7 @@
     }
 
     .customer-service ul li a:hover {
-        color: red;
+        color: #bf1e2e;
     }
 
     .section-child h3 {
@@ -415,7 +442,7 @@
 
     .sitemap>li a:hover {
         cursor: pointer;
-        color: red;
+        color: #bf1e2e;
         position: relative;
         left: 12px;
     }
@@ -442,7 +469,7 @@
     .social-icon-child ul li {
         list-style: none;
         margin: 0px 3px;
-        color: darkblue;
+        color: #035084;
         cursor: pointer;
         font-size: x-large;
         transition: .3s;
@@ -508,7 +535,7 @@
         z-index: 9999;
         height: 100px;
         align-items: center;
-        background: linear-gradient(115deg, ghostwhite, red);
+        background: linear-gradient(115deg, ghostwhite, #bf1e2e);
     }
 
     .offcanvas-menu>ul li a:is(:link, :active, :visited).active {
@@ -609,13 +636,13 @@
 }
 
 .header-user-menu li a {
-    color: darkblue;
+    color: #035084;
     text-decoration: none;
     padding: 10px;
 }
 
 .header-user-menu li a:hover {
-    color: red;
+    color: #bf1e2e;
 }
 
 .header-tops {
@@ -629,11 +656,11 @@
 }
 
 .download li {
-    background-color: red;
+    background-color: #bf1e2e;
 }
 
 .download li a:hover {
-    color: darkblue !important
+    color: #035084 !important
 }
 
 /* Position and sizing of burger button */
@@ -752,7 +779,7 @@
 }
 
 .mobile-menu-bottom ul li a {
-    color: darkblue;
+    color: #035084;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
@@ -760,7 +787,7 @@
 }
 
 .fa-icon {
-    color: darkblue;
+    color: #035084;
     width: 44px;
     height: 18px;
 
@@ -779,7 +806,7 @@
 }
 
 .scroll-to-top button {
-    background-color: red;
+    background-color: #bf1e2e;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -787,18 +814,18 @@
     height: 40px;
     font-size: 24px;
     cursor: pointer;
-    box-shadow: 0px 0px 7px darkblue;
+    box-shadow: 0px 0px 7px #035084;
     transition: background-color 0.3s;
 }
 
 .scroll-to-top button:hover {
-    background-color: darkblue;
+    background-color: #035084;
 }
 
 .sticky {
     position: fixed;
     top: 0;
-    background-color: darkblue;
+    background-color: #035084;
     width: 100%;
     animation-name: fadeIndown;
     animation-duration: .9s;
@@ -811,7 +838,12 @@
     left: 23px;
     z-index: 9999;
 }
-
+.call{
+    position: fixed;
+    bottom: 58px;
+    left: 23px;
+    z-index: 9999;
+}
 .Whatsapp ul {
     list-style: none;
 }
@@ -839,10 +871,10 @@
 
 .sentmail button {
     padding: 9px 36px;
-    background-color: red;
+    background-color: #bf1e2e;
     font-size: large;
     color: white;
-    border: 1px solid red;
+    border: 1px solid #bf1e2e;
     border-radius: 14px;
     cursor: pointer;
     position: relative;

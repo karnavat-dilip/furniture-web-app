@@ -23,9 +23,7 @@ import './About.css'
 function About() {
     return (
         <div>
-            <p>We are one of the largest and oldest furniture suppliers in Palanpur since 1991.
-                We are one of the best wooden and steel furniture suppliers in Palanpur.
-                We deal in living room furniture, bedroom furniture, garden furniture, dining room furniture, office furniture, and imported furniture. We are also a manufacturer of quality Indian teak wood Furniture.
+            <p>Best Taxi Services in Palanpur for exploring local or outstation cities Let us talk about why we are the best taxi services in Palanpur and the only car rental in Palanpur that assures safety of you fully. Our commitment to be the best taxi rentals have helped in giving best services that a client expects from any taxi services in Palanpur.
             </p>
         </div>
     );
@@ -34,7 +32,7 @@ function About() {
 function OurStrength() {
     return (
         <div>
-            <p>Having earned a recommendable position in the industry for providing innovative, high-quality Kerala furniture at a reasonable cost, our organization is fostered with a skilled team of professionals who make their sincere effort towards the growth of the company.</p>
+            <p>Taxis should be readily available at all times, including during peak hours and in less populated areas.</p>
         </div>
     );
 }
@@ -42,7 +40,7 @@ function OurStrength() {
 function OurService() {
     return (
         <div>
-            <p>We have been trusted to layout the furniture including space planning for our customers because of our experienced, knowledge and passionate team in furniture.</p>
+            <p>Reliable and convenient transportation services, including standard rides, airport transfers, and specialized options, tailored to meet diverse customer needs.</p>
         </div>
     );
 }
@@ -63,16 +61,12 @@ function AboutUs() {
             <section className='m-top53px'>
                 <div className='container'>
                     <div className='about-container'>
-                        <div data-aos="fade-up">
-                            <img src={about} />
-                        </div>
+
                         <div className='second-child' data-aos="fade-up">
-                            <h1>We convert your idea into a reality</h1>
-                            <p>We are one of the largest and oldest furniture suppliers in Palanpur since 1991.
-                                We are one of the best wooden and steel furniture suppliers in Palanpur.
-                                We deal in living room furniture, bedroom furniture, garden furniture, dining room furniture, office furniture, and imported furniture. We are also a manufacturer of quality Indian teak wood Furniture.</p>
+                            <h1>Welcome To Nice Travels</h1>
+                            <p>Best Taxi Services in Palanpur for exploring local or outstation cities Let us talk about why we are the best taxi services in Palanpur and the only car rental in Palanpur that assures safety of you fully. Our commitment to be the best taxi rentals have helped in giving best services that a client expects from any taxi services in Palanpur.</p>
                         </div>
-                        
+
                         <div data-aos="fade-up">
                             <div className='nav-container'>
                                 <div className='b-btm'>
@@ -100,7 +94,7 @@ function AboutUs() {
 
                                 <h2>Value</h2>
                                 <p>
-                                    We have earned clients’ trust with reliable service and quality products. We accept the consequences of our actions as a sign of responsibility. Our professionalism can be viewed through flawless service and high-end products.
+                                    Professional drivers with thorough knowledge of traffic regulations and local areas ensure a safe travel experience.
                                 </p>
                             </div>
                             <div>
@@ -110,9 +104,7 @@ function AboutUs() {
                                 <h2>Our Mission
                                 </h2>
                                 <p>
-
-                                    "We strive in improving the quality of life of the communities We serve, through leadership and global competitiveness in the business sectors in which we operate".
-                                    To offer a range of products at affordable Kerala furniture price, which adds to the comfort of life through manual labor, time and energy, or for entertainment.
+                                    Our mission is to deliver exceptional taxi services through a commitment to customer satisfaction, safety, and innovation. We aim to provide convenient and dependable transportation solutions that cater to the diverse needs of our community while fostering a culture of excellence and sustainability.
                                 </p>
                             </div>
                             <div>
@@ -120,9 +112,7 @@ function AboutUs() {
 
                                 <h2>Our Vision</h2>
                                 <p>
-                                    Committed to honesty and fairness to achieve a leadership position in all core business areas.
-                                    Utilize the best and most appropriate technologies.
-                                    Apply the finest manufacturing disciplines.
+                                    To be the leading provider of safe, reliable, and efficient transportation services, revolutionizing urban mobility and enhancing the quality of life for our customers.
                                 </p>
                             </div>
                         </div>

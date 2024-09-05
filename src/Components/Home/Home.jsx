@@ -4,21 +4,27 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import sofaimg from '../../Assets/badroom.jpg'
-import Banner4 from '../../Assets/Banner4.jpg'
-import Banner5 from '../../Assets/Banner5.jpg'
+import sofaimg from '../../Assets/about-pic.jpg'
+import Banner4 from '../../Assets/palanpurTaxi.jpeg'
+import Banner5 from '../../Assets/palanpurhotel.jpeg'
 import sofa from '../../Assets/Icons/sofa-furniture.png'
-import Banner03 from '../../Assets/Banner05.jpg'
-import bedroom from '../../Assets/badroom.jpg'
-import tvunit from '../../Assets/tv_unit.webp'
-import kitchen from '../../Assets/kitchen.jpg'
+import Banner03 from '../../Assets/call-support.png'
+import bedroom from '../../Assets/ertiga.webp'
+import tvunit from '../../Assets/swift.webp'
+import kitchen from '../../Assets/Kia_Carens.png'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
+import { FaCarAlt } from "react-icons/fa";
+import { IoIosCall } from "react-icons/io";
 import './Home.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { v4 as uuidv4 } from 'uuid';
-import officefurniture from '../../Assets/office_furniture.jpeg'
+import officefurniture from '../../Assets/Tempo_Traveller.webp'
+import toyatainnovacrysta from '../../Assets/innovacrysta.webp'
+import innova from '../../Assets/toyotainnova.webp'
+import tavera from '../../Assets/tavera.jpg'
+import etios from '../../Assets/etios.jpg'
 import { Accordion, styled } from '@mui/material';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -38,13 +44,12 @@ import logo10 from '../../Assets/logo10.jpg'
 import logo11 from '../../Assets/logo11.jpg'
 import logo12 from '../../Assets/logo12.jpg'
 import logo13 from '../../Assets/logo13.jpg'
-
+import 'animate.css';
 
 function AboutUs() {
   return (
     <div>
-      <p>We are one of the largest and oldest furniture suppliers in Palanpur since 1991. We are one of the best wooden and steel furniture suppliers in Palanpur. We deal in living room furniture, bedroom furniture, garden furniture, dining room furniture, office furniture, and imported furniture. We are also a manufacturer of quality Indian teak wood Furniture.
-
+      <p>Best Taxi Services in Palanpur for exploring local or outstation cities Let us talk about why we are the best taxi services in Palanpur and the only car rental in Palanpur that assures safety of you fully. Our commitment to be the best taxi rentals have helped in giving best services that a client expects from any taxi services in Palanpur.
         <a href='/about' style={{ color: 'red' }}>Read more...</a></p>
     </div>
   );
@@ -53,7 +58,7 @@ function AboutUs() {
 function OurStrength() {
   return (
     <div>
-      <p>Having earned a recommendable position in the industry for providing innovative, high-quality Kerala furniture at a reasonable cost, our organization is fostered with a skilled team of professionals who make their sincere effort towards the growth of the company.
+      <p>Taxis should be readily available at all times, including during peak hours and in less populated areas.
 
         <a href='/about' style={{ color: 'red' }}>Read more...</a></p>
     </div>
@@ -63,7 +68,7 @@ function OurStrength() {
 function OurService() {
   return (
     <div>
-      <p>We have been trusted to layout the furniture including space planning for our customers because of our experienced, knowledge and passionate team in furniture.
+      <p>Reliable and convenient transportation services, including standard rides, airport transfers, and specialized options, tailored to meet diverse customer needs.
 
         <a href='/about' style={{ color: 'red' }}>Read more...</a></p>
     </div>
@@ -87,28 +92,80 @@ function Home() {
 
   const products = [
     {
-        id: uuidv4(),
-        img: bedroom,
-        title: 'Bed room'
+      id: uuidv4(),
+      img: bedroom,
+      title: 'Hire Ertiga Taxi',
+      rate: {
+        nonac: '12Rs KM Non AC',
+        ac: '13Rs KM with AC'
+      }
     },
     {
-        id: uuidv4(),
-        img: kitchen,
-        title: 'Kitchen'
+      id: uuidv4(),
+      img: kitchen,
+      title: 'Kia Carens',
+      rate: {
+        nonac: '15Rs KM Non AC',
+        ac: '16Rs KM with AC'
+      }
     },
     {
-        id: uuidv4(),
-        img: tvunit,
-        title: 'TV Unit'
+      id: uuidv4(),
+      img: tvunit,
+      title: 'Hire Dzire Taxi',
+      rate: {
+        nonac: '10Rs KM Non AC',
+        ac: '11Rs KM with AC'
+      }
     },
     {
       id: uuidv4(),
       img: officefurniture,
-      title: 'Office Furniture'
-  }
-]
+      title: 'Tempo Traveller',
+      rate: {
+        nonac: '25Rs KM Non AC',
+        ac: '26Rs KM with AC'
+      }
+    },
+    {
+      id: uuidv4(),
+      img: toyatainnovacrysta,
+      title: 'Toyata Innova Crysta',
+      rate: {
+        nonac: '16Rs KM Non AC',
+        ac: '17Rs KM with AC'
+      }
+    },
+    {
+      id: uuidv4(),
+      img: innova,
+      title: 'Hire Toyata Innova',
+      rate: {
+        nonac: '14Rs KM Non AC',
+        ac: '15Rs KM with AC'
+      }
+    },
+    {
+      id: uuidv4(),
+      img: etios,
+      title: 'Hire Etios Taxi',
+      rate: {
+        nonac: '10Rs KM Non AC',
+        ac: '11Rs KM with AC'
+      }
+    },
+    {
+      id: uuidv4(),
+      img: tavera,
+      title: 'Hire Tavera Taxi',
+      rate: {
+        nonac: '13Rs KM Non AC',
+        ac: '14Rs KM with AC'
+      }
+    }
+  ]
 
-  
+
 
   return (
     <>
@@ -129,25 +186,36 @@ function Home() {
               modules={[Autoplay, Pagination, Navigation]}
               className="mySwiper"
             >
-              <SwiperSlide><img src={Banner4} id='img1' /></SwiperSlide>
-              <SwiperSlide><img src={Banner5} id='img2' /></SwiperSlide>
+              <SwiperSlide><img src={Banner4} id='img1' />
+                <div className='bannertext'>
+                  <h1 className='animate__animated animate__backInDown'>Need A Taxi?</h1>
+
+                  <a href='tel:+91 9427536115' className='animate__animated animate__backInUp'>Call now</a>
+
+                </div>
+              </SwiperSlide>
+              <SwiperSlide><img src={Banner5} id='img2' />
+                <div className='bannertext'>
+                  <h1 className='animate__animated animate__backInDown'>lodging with great DEALS !!</h1>
+
+                  <a href='tel:+91 9427536115' className='animate__animated animate__backInUp'>Call now</a>
+
+                </div>
+              </SwiperSlide>
             </Swiper>
           </div>
         </section>
         <section data-aos="fade-up">
           <div className='container'>
             <div className='h1-container'>
-              <h1>Welcome to Shubhlaxmi PVC Furniture</h1>
+              <h1>Welcome to Nice Travels</h1>
             </div>
             <div className='intro'>
               <div className='d-flex'>
                 <div>
                   <h4>Introduction</h4>
-                  <p>We are one of the largest and oldest furniture suppliers in Palanpur since 1991.</p>
-                  <h4>Unlock the full potential of Home Interior
-                  </h4>
-                  <p>We deal with wooden furniture with the latest collection in the category of home and office furniture which will give your interior an extraordinary look
-                  </p>
+                  <p>Best Taxi Services in Palanpur for exploring local or outstation cities Let us talk about why we are the best taxi services in Palanpur and the only car rental in Palanpur that assures safety of you fully. Our commitment to be the best taxi rentals have helped in giving best services that a client expects from any taxi services in Palanpur.</p>
+
                 </div>
                 <div>
                   <img src={sofaimg} id='profile-img' />
@@ -158,18 +226,22 @@ function Home() {
         </section>
         <section data-aos="fade-up">
           <div className='container'>
-            <div className='h1-container'><h1>Product Category</h1></div>
+            <div className='h1-container'><h1>OUR SERVICES</h1></div>
             <div className='product-container'>
               <Swiper
 
                 breakpoints={{
                   640: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                     spaceBetween: 20,
                   },
+                  768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                  },
                   1024: {
-                    slidesPerView: 2,
-                    spaceBetween: 300,
+                    slidesPerView: 5,
+                    spaceBetween: 50,
                   },
                 }}
                 loop={true}
@@ -180,7 +252,7 @@ function Home() {
                 }}
                 pagination={true}
                 navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                modules={[Pagination, Navigation]}
 
               >
                 {
@@ -188,9 +260,13 @@ function Home() {
                     return (
                       <SwiperSlide key={product.id} className='swiper-child'>
                         {/* <div key={product.id} className='swiper-child'> */}
-                        <a href={`/Allproduct/${index + 1}`}>
-                          <img src={product.img} width='100px' height='100px' />
-                          <h3>{product.title}</h3>
+                        <img src={product.img} width='100px' height='100px' />
+                        <h3>{product.title}</h3>
+                        <FaCarAlt />
+                        <p>{product.rate.nonac}</p>
+                        <p>{product.rate.ac}</p>
+                        <a href='tel:+91 9427536115'>
+                          <IoIosCall /> Call Now
                         </a>
                         {/* </div> */}
                       </SwiperSlide>
@@ -214,15 +290,15 @@ function Home() {
               </div>
               <div className='totalno'>
 
-                {<CountUp start={0} end={2250} duration={5} delay={0} />}+
+                {<CountUp start={0} end={22} duration={5} delay={0} />}+
 
-                <h4>Total Projects</h4>
+                <h4>Our Experience</h4>
               </div>
               <div className='totalno'>
 
-                {<CountUp start={0} end={170} duration={5} delay={0} />}+
+                {<CountUp start={0} end={17} duration={5} delay={0} />}+
 
-                <h4>Total Product</h4>
+                <h4>Total taxi</h4>
               </div>
               <div className='totalno'>
 
@@ -254,13 +330,13 @@ function Home() {
               {content && content}
 
             </div>
-            <div>
-              <img src={Banner03} style={{ width: '100%' }} />
+            <div style={{ textAlign: 'center' }}>
+              <img src={Banner03} style={{width:'-webkit-fill-available'}} />
             </div>
           </div>
         </section>
 
-        
+
         <section style={{ padding: '2%' }}>
 
         </section>

@@ -1,7 +1,7 @@
 .about-container > :first-child img{
     width: 100%;
     aspect-ratio: 2 / 1;
-    border: 1px solid red;
+    border: 1px solid #bf1e2e;
 }
 .second-child > h1{
     text-align: center;
@@ -27,7 +27,7 @@
 }
 .bd-highlight svg{
     font-size: xx-large;
-    color: red;
+    color: #bf1e2e;
     margin-bottom: 19px;
 }
 .bd-highlight h2{
@@ -57,7 +57,7 @@
 .ourmission h2{
     font-size: large;
     font-weight: 400;
-    color: red;
+    color: #bf1e2e;
 }
 .ourmission p{
     text-align: center;

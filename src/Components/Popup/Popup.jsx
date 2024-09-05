@@ -1,6 +1,6 @@
 // src/components/Popup.js
 import React, { useEffect, useState } from 'react';
-import panels from '../../Assets/Banner4.jpg'
+import panels from '../../Assets/logo.jpg'
 import { FaChevronDown } from "react-icons/fa";
 import './Popup.css'
 
@@ -47,8 +47,8 @@ const Popup = ({ closePopup, texts, speed, pause }) => {
     <div className="popup" id="welcome-popup">
       <div className="popup-inner">
         <img src={panels} className='panels' />
-        <h1>Welcome To Shubhlaxmi PVC Furniture!</h1>
-        <p>We Being {displayedText}
+        <h1>Welcome To Nice Travels!</h1>
+        <p>Our Services {displayedText}
           {(isTyping || isDeleting) && <span className="typing-cursor">|</span>}</p>
         <div className='arrow-container animated fadeInDown' onClick={closePopup}>
           <div className='arrow-2'>

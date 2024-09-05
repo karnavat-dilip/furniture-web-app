@@ -1,7 +1,9 @@
 .popup {
   height: 100vh;
   width: 100vw;
-  background: azure;
+  background-image: url('../../Assets/nicetravelbg.jpg');
+  background-position:center;
+  background-size: cover;
 }
 
 .popup-inner {
@@ -14,10 +16,12 @@
 
 .popup-inner h1 {
   padding: 25px;
+  color: #bf1e2e;
 }
 
 .popup-inner p {
   font-size: large;
+  color: #035084;
 }
 
 .fadeInDown {
@@ -43,9 +47,9 @@
 
 .panels {
   width: 23%;
-  border: 1px solid red;
+  
   border-radius: 12px;
-  aspect-ratio: 3 / 1;
+  
 }
 
 .arrow-2 {
@@ -64,7 +68,7 @@
   content: "";
   width: 52px;
   height: 52px;
-  border: 2px solid red;
+  border: 2px solid #bf1e2e;
   border-radius: 50%;
   position: absolute;
   top: 3px;
@@ -108,7 +112,7 @@
 .arrow-1 {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #bf1e2e;
   border-radius: 50%;
   opacity: 0.5;
   position: absolute;

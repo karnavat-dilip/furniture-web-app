@@ -10,6 +10,7 @@ import { TfiAngleDown } from "react-icons/tfi";
 import { stack as Menu } from 'react-burger-menu'
 import { Accordion, styled } from '@mui/material';
 import AccordionActions from '@mui/material/AccordionActions';
+import { IoCall } from "react-icons/io5";
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -198,12 +199,12 @@ function Header() {
                             <div>
                                 <ul className='header-user-menu'>
                                     <li>
-                                        <IoIosCall /><a href='tel:+91 8401429751'>+91 8401429751</a>
-                                        <a href='tel:+91 9427064866'>+91 9427064866</a>
+                                        <IoIosCall /><a href='tel:+91 9737391044'>+91 9737391044</a>
+                                        <a href='tel:+91 9427536115'>+91 9427536115</a>
                                     </li>
                                     <li>
                                         <IoMdMail />
-                                        <a href='mailto:shubhlaxmi_homeinterior@gmail.com'>shubhlaxmi_homeinterior@gmail.com</a>
+                                        <a href='mailto:nicepathan123@gmail.com'>nicepathan123@gmail.com</a>
                                     </li>
 
 
@@ -223,35 +224,13 @@ function Header() {
                                 <ul>
                                     <li><a href="/">Home</a></li>
                                     <li className="dropdown">
-                                        <a href='/Allproduct'>product <TfiAngleDown />
+                                        <a href="/Services">Services
                                         </a>
-                                        <div className="stone">
-                                            <div className='container'>
-                                                <div className='p-list-container'>
-                                                    {
-                                                        products?.map((product, index) => {
-                                                            return (
-                                                                <div key={product.id}>
-                                                                    <a href={`/Allproduct/${index + 1}`}>
-                                                                        <img src={product.img} width='100' style={{ alignSelf: 'center' }} />
-                                                                        <h3>{product.title}</h3>
-                                                                    </a>
-                                                                </div>
-                                                            )
-                                                        })
-                                                    }
-                                                </div>
-                                            </div>
-                                        </div>
                                     </li>
 
                                     <li className="dropdown">
-                                        <a>gallery <TfiAngleDown />
+                                        <a href="/photos">gallery
                                         </a>
-                                        <div className="dropdown-content">
-                                            <a href="/photos">Photos</a>
-                                            <a href="/videos">Videos</a>
-                                        </div>
                                     </li>
                                     <li><a href="/about">About Us</a></li>
                                     <li><a href="/contact">Contact Us</a></li>
@@ -262,7 +241,7 @@ function Header() {
                     </nav>
                 </div>
             </header>
-           
+
             <div className="scroll-to-top" data-aos="fade-up">
                 {isVisible && (
                     <button onClick={scrollToTop}>
@@ -270,10 +249,22 @@ function Header() {
                     </button>
                 )}
             </div>
+            <div className='call'>
+                <ul>
+                    <li>
+                        <a href='tel:+91 9427536115'><IoCall style={{
+                            width: '47px',
+                            height: '48px',
+                            color: '#25d366'
+                        }} />
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div className='Whatsapp'>
                 <ul>
                     <li>
-                        <a href='https://api.whatsapp.com/send/?phone=919427064866&text&type=phone_number&app_absent=0' target='_blank'><FaSquareWhatsapp style={{
+                        <a href='https://api.whatsapp.com/send/?phone=919427536115&text&type=phone_number&app_absent=0' target='_blank'><FaSquareWhatsapp style={{
                             width: '47px',
                             height: '48px',
                             color: '#25d366'
@@ -303,26 +294,26 @@ function Header() {
                                         {/* Start Mobile Menu User Top */}
                                         <div className="mobile-menu-top">
                                             <span>
-                                                <b>Welcome to our Shubhlaxmi PVC Furniture</b>
+                                                <b>Welcome to Nice Travels</b>
                                             </span>
                                             {/* Start Header Top Menu */}
                                             <ul className="mobile-menu-user-menu">
                                                 <li className="header-user-menu-link">
                                                     <IoIosCall />
-                                                    <a href="tel:+91 84014 29751" target="_blank">
-                                                        <b>+91 84014 29751</b>
+                                                    <a href="tel:+91 94275 36115" target="_blank">
+                                                        <b>+91 94275 36115</b>
                                                     </a>
-                                                    <a href="tel:+91 94270 64866" target="_blank">
-                                                        <b>+91 94270 64866</b>
+                                                    <a href="tel:+91 97373 91044" target="_blank">
+                                                        <b>+91 97373 91044</b>
                                                     </a>
                                                 </li>
-                                                <a href="tel:+91 94270 64866"></a>
+                                                <a href="tel:+91 97373 91044"></a>
                                                 <li className="header-user-menu-link">
                                                     <IoMdMail />
-                                                    <a href="mailto:shubhlaxmi_homeinterior@gmail.com" target="_blank">
+                                                    <a href="mailto:nicepathan123@gmail.com" target="_blank">
                                                         &nbsp;
                                                     </a>
-                                                    <b> shubhlaxmi_homeinterior@gmail.com</b>
+                                                    <b> nicepathan123@gmail.com</b>
                                                 </li>
                                                 {/*                <li class="header-user-menu-link"><div id="google_translate_element" class="google_translate_element"></div></li>*/}
                                             </ul>
@@ -369,38 +360,10 @@ function Header() {
 
                                                     <li className="mobileli">
 
-                                                        <CustomAccordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-                                                            <AccordionSummary
-                                                                expandIcon={<ExpandMoreIcon />}
-                                                            >
-                                                                <div style={{
-                                                                    height: '16px',
-                                                                    display: 'flex',
-                                                                    alignItems: 'center'
-                                                                }}>
-                                                                    <AiOutlineAppstore className='fa-icon' />
-                                                                    <a href='/Allproduct'>
-                                                                        Products
-                                                                    </a>
-                                                                </div>
-                                                            </AccordionSummary>
-                                                            <AccordionDetails>
-                                                                <ul className="mobile-sub-menu">
-                                                                    <li>
-                                                                        <a href="/Allproduct/1">Bed room</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="/Allproduct/2">Kitchen</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="/Allproduct/3">TV Unit</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="/Allproduct/4">Office Furniture</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </AccordionDetails>
-                                                        </CustomAccordion>
+
+                                                        <a href='/Services'><AiOutlineAppstore className='fa-icon' />
+                                                            Services
+                                                        </a>
                                                     </li>
 
 
@@ -412,28 +375,7 @@ function Header() {
                                                         </a>
                                                     </li>
                                                     <li className="mobileli">
-                                                        <div>
-                                                            <CustomAccordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-                                                                <AccordionSummary
-                                                                    expandIcon={<ExpandMoreIcon />}
-
-                                                                >
-                                                                    <GrGallery className='fa-icon' />
-                                                                    Gallery
-                                                                </AccordionSummary>
-                                                                <AccordionDetails>
-                                                                    <ul className="mobile-sub-menu">
-                                                                        <li>
-                                                                            <a href="/photos">Photos</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="/videos">Videos</a>
-                                                                        </li>
-
-                                                                    </ul>
-                                                                </AccordionDetails>
-                                                            </CustomAccordion>
-                                                        </div>
+                                                        <a href="/photos"><GrGallery className='fa-icon' /> gallery</a>
                                                     </li>
                                                     <li className="mobileli">
 

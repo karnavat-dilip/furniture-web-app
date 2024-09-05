@@ -21,7 +21,9 @@ function Footer() {
                         <div className='section-child' >
                             <div>
                                 <img src={glogo} width='150' />
-                                <p>We are one of the largest and oldest furniture suppliers in Palanpur since 1991
+                                <p>Best Taxi Services in Palanpur for exploring local or outstation cities Let us talk about why we are the best taxi services in Palanpur and the only car rental in Palanpur that assures safety of you fully.
+
+
                                 </p>
                                 <div className='customer-service'>
                                     <RiCustomerService2Line style={{
@@ -31,10 +33,10 @@ function Footer() {
                                     <ul>
                                         <li>Customer Support</li>
                                         <li>
-                                            <a href="tel:+91 9427064866">+91 94270 64866</a>
+                                            <a href="tel:+91 9427536115">+91 9427536115</a>
                                         </li>
                                         <li>
-                                            <a href="tel:+91 8401429751">+91 84014 29751</a>
+                                            <a href="tel:+91 9737391044">+91 9737391044</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -42,7 +44,7 @@ function Footer() {
                         </div>
                         <div className='section-child'>
                             <div>
-                                <p>We deal in living room furniture, bedroom furniture, garden furniture, dining room furniture, office furniture, and imported furniture. We are also a manufacturer of quality Indian teak wood Furniture.
+                                <p>Best Taxi Services in Palanpur for exploring local or outstation cities Let us talk about why we are the best taxi services in Palanpur and the only car rental in Palanpur that assures safety of you fully. Our commitment to be the best taxi rentals have helped in giving best services that a client expects from any taxi services in Palanpur.
                                 </p>
                                 <div className='social-icon-child' style={{
                                     height: 'fitContent',
@@ -58,7 +60,7 @@ function Footer() {
                                         </li>
                                         <li>
 
-                                            <a href='https://www.instagram.com/shubhlaxmi_homeinterior?igsh=MXZnd3lrY21qdHhqYQ%3D%3D'>
+                                            <a href='https://www.instagram.com/'>
                                                 <FaInstagramSquare />
                                             </a>
 
@@ -87,7 +89,7 @@ function Footer() {
                             <h3>Sitemap</h3>
                             <ul className='sitemap'>
                                 <li>
-                                    <a href='/Allproduct'>Our Product</a>
+                                    <a href='/Services'>Our Services</a>
                                 </li>
                                 <li>
                                     <a href='/about'>About Us</a>
@@ -107,17 +109,17 @@ function Footer() {
                             <a href='/contact'>Contact Us</a>
                             <ul className='contactus'>
                                 <li>
-                                    <b>Shubhlaxmi PVC Furniture</b>&nbsp;
+                                    <b>Nice Travels</b>&nbsp;
                                 </li>
                                 <li>
-                                Fansia Hill, Three Roads, Kantheria Hanuman Main Road, Palanpur - 385001 (B.K.)
+                                Railway Station Rd, Chaman Bagh, Palanpur, Gujarat 385001
                                 </li>
                                 <li>
                                     Gujarat(INDIA)385001
                                 </li>
                                 <li className='contact-link'>
-                                    <IoIosCall className='contact-support' /><a href='tel:+91 9427064866'>+919427064866</a>&nbsp;
-                                    <a href='tel:+91 8401429751'>8401429751</a>&nbsp;
+                                    <IoIosCall className='contact-support' /><a href='tel:+91 9427536115'>+919427536115</a>&nbsp;
+                                    <a href='tel:+91 9737391044'>9737391044</a>&nbsp;
                                 </li>
                                 <li className='contact-link'>
                                     <IoMdMail className='contact-support' />
@@ -127,19 +129,19 @@ function Footer() {
                                     <a style={{
                                         left: '24px',
                                         position: 'relative'
-                                    }} href='mailto:shubhlaxmi_homeinterior@gmail.com'>shubhlaxmi_homeinterior@gmail.com</a>
+                                    }} href='mailto:nicepathan123@gmail.com'>nicepathan123@gmail.com</a>
                                 </li>
 
                                 <li className='contact-link'>
                                     <TbWorldWww className='contact-support' />
-                                    <a href='https://www.shubhlaxmipvcfurniture.vercel.app'>www.shubhlaxmipvcfurniture.vercel.app</a>
+                                    <a href='https://www.nicetravels.vercel.app'>www.nicetravels.vercel.app</a>
                                 </li>
                             </ul>
 
                         </div>
                     </div>
                     <div className='copyright'>
-                        <p>Copyright © 2024 Shubhlaxmi PVC Furniture | All Rights Reserved Designed & Developed By <a href='tel:+91 9913448958'style={{color:'black'}}>Karnavat dilip</a></p>
+                        <p>Copyright © 2024 Nice Travels | All Rights Reserved Designed & Developed By <a href='tel:+91 9913448958'style={{color:'black'}}>Karnavat dilip</a></p>
                     </div>
                 </div>
             </footer >
